@@ -1,0 +1,45 @@
+.section {
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+    white-space: pre;
+
+    & h4 {
+        color:#f71755;
+    }
+}
+
+.-background--one{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    & .block-section--one{
+        width: 100%;
+        display:block;
+        text-align: center;
+    }
+
+    & h4{
+        position: relative;
+        right: 1080px;
+        top:290px;
+    }
+     
+    
+}
+
+.-background--two{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    & .block-section--two{
+        display: flex;
+        align-items: center;
+    }
+}

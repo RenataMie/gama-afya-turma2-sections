@@ -2,3 +2,34 @@
   margin: 0;
   padding: 0;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+  font-family: 'Rubik', sans-serif;
+  
+}
+
+h1,h2,h3, h4 {
+  font-family: 'Rubik', sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main-center{
+  position: fixed;
+  left:50px;
+  bottom: 20px;
+}
+
+.footer-contain {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}

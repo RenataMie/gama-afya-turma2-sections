@@ -1,5 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+  font-family: "Rubik", sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Rubik", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main-center {
+  position: fixed;
+  left: 50px;
+  bottom: 20px;
+}
+
+.footer-contain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section {
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+  white-space: pre;
+}
+.section h4 {
+  color: #f71755;
+}
+
+.-background--one {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.-background--one .block-section--one {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.-background--one h4 {
+  position: relative;
+  right: 1080px;
+  top: 290px;
+}
+
+.-background--two {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.-background--two .block-section--two {
+  display: flex;
+  align-items: center;
+}
 
 /*# sourceMappingURL=style.css.map */
